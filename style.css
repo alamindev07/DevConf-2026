@@ -501,3 +501,329 @@ footer hr{
     color:#cbd5e1;
     font-size:15px;
 }
+
+
+/* ==========================================
+            RESPONSIVE DESIGN
+========================================== */
+
+/* ===============================
+   Laptop (≤ 992px)
+================================== */
+
+@media (max-width: 992px) {
+
+    .container{
+        width:92%;
+    }
+
+    /* Navbar */
+
+    .navbar{
+        flex-direction:column;
+        gap:22px;
+        height:auto;
+        padding:20px 0;
+    }
+
+    .nav-links{
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:20px;
+    }
+
+    /* Hero */
+
+    .hero{
+        min-height:85vh;
+    }
+
+    .hero-content h1{
+        font-size:56px;
+    }
+
+    .hero-content p{
+        font-size:18px;
+        max-width:650px;
+    }
+
+    /* Speakers */
+
+    .speaker-grid{
+        grid-template-columns:repeat(2,1fr);
+        gap:25px;
+    }
+
+    .speaker-card img{
+        height:260px;
+    }
+
+    /* Pricing */
+
+    .pricing-grid{
+        grid-template-columns:1fr;
+        max-width:550px;
+        margin:55px auto 0;
+    }
+
+    .featured{
+        transform:none;
+    }
+
+    /* Sponsors */
+
+    .sponsor-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    /* Footer */
+
+    .footer-top{
+        flex-direction:column;
+        gap:30px;
+        text-align:center;
+    }
+
+}
+
+/* ===============================
+   Tablet (≤ 768px)
+================================== */
+
+@media (max-width:768px){
+
+    section{
+        padding:80px 0;
+    }
+
+    .section-title{
+        font-size:38px;
+    }
+
+    .section-subtitle{
+        font-size:16px;
+        margin-bottom:45px;
+    }
+
+    /* Hero */
+
+    .hero{
+        min-height:75vh;
+    }
+
+    .hero-content h1{
+        font-size:44px;
+        line-height:1.2;
+    }
+
+    .hero-content p{
+        font-size:17px;
+        padding:0 15px;
+    }
+
+    .hero-btn{
+        padding:14px 32px;
+    }
+
+    /* Navbar */
+
+    .logo h2{
+        font-size:20px;
+    }
+
+    .nav-links{
+        gap:18px;
+    }
+
+    /* Speakers */
+
+    .speaker-grid{
+        grid-template-columns:1fr;
+    }
+
+    .speaker-card img{
+        height:280px;
+    }
+
+    .speaker-info{
+        padding:24px;
+    }
+
+    .speaker-info h3{
+        font-size:24px;
+    }
+
+    /* Pricing */
+
+    .price-card{
+        padding:30px;
+    }
+
+    .price-card h3{
+        font-size:52px;
+    }
+
+    /* Sponsors */
+
+    .sponsor-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    /* Footer */
+
+    .social-links{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+}
+
+/* ===============================
+   Mobile (≤ 576px)
+================================== */
+
+@media (max-width:576px){
+
+    .container{
+        width:94%;
+    }
+
+    /* Navbar */
+
+    .navbar{
+        padding:18px 0;
+    }
+
+    .nav-links{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .btn{
+        width:100%;
+        text-align:center;
+    }
+
+    /* Hero */
+
+    .hero{
+        min-height:70vh;
+    }
+
+    .hero-content h1{
+        font-size:34px;
+    }
+
+    .hero-content p{
+        font-size:15px;
+        margin-bottom:30px;
+    }
+
+    .hero-btn{
+        width:100%;
+        max-width:260px;
+    }
+
+    /* Section */
+
+    .section-title{
+        font-size:30px;
+    }
+
+    .section-subtitle{
+        font-size:15px;
+    }
+
+    /* Speakers */
+
+    .speaker-card img{
+        height:220px;
+    }
+
+    .speaker-info{
+        padding:20px;
+    }
+
+    .speaker-info h3{
+        font-size:22px;
+    }
+
+    .speaker-info p{
+        font-size:15px;
+    }
+
+    .tag{
+        font-size:12px;
+    }
+
+    /* Pricing */
+
+    .price-card{
+        padding:24px;
+    }
+
+    .price-card h3{
+        font-size:44px;
+    }
+
+    .pricing-btn{
+        width:100%;
+    }
+
+    /* Sponsors */
+
+    .sponsor-card{
+        padding:25px;
+    }
+
+    /* Footer */
+
+    .footer-logo{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .social-links{
+        gap:12px;
+    }
+
+    .social-links a{
+        width:42px;
+        height:42px;
+    }
+
+    .footer-bottom p{
+        font-size:14px;
+        line-height:1.8;
+    }
+
+}
+
+/* ===============================
+   Small Mobile (≤ 380px)
+================================== */
+
+@media (max-width:380px){
+
+    .hero-content h1{
+        font-size:30px;
+    }
+
+    .hero-content p{
+        font-size:14px;
+    }
+
+    .section-title{
+        font-size:26px;
+    }
+
+    .price-card h3{
+        font-size:38px;
+    }
+
+    .speaker-card img{
+        height:200px;
+    }
+
+}
