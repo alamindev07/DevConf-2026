@@ -1,0 +1,1 @@
+Design a modern Sponsors & Partners section for a DevConf 2026 conference website using only HTML5 and CSS3. The design should match a modern developer conference theme, include sponsor logos, partner categories, a call-to-action, and be fully responsive without JavaScript or CSS frameworks.
